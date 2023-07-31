@@ -28,4 +28,10 @@ String str = "Hello";
 String sameStr = str;
 
 4.In Java, primitive widening conversion (also known as implicit widening conversion) is a type conversion that automatically promotes a value of a smaller data type to a larger data type without any loss of data. This conversion is performed by the Java compiler and is safe because the larger data type can hold all possible values of the smaller data type.
+5.A compile-time constant, also known as a "compile-time constant expression," is a value that can be computed by the Java compiler at compile time. The value of a compile-time constant is known and fixed before the program is executed, and the compiler can replace occurrences of the constant with its actual value throughout the code.
+final double pi=3.14;
+A run-time constant is a value that can be determined and fixed only at runtime, i.e., during the execution of the program. The value of a run-time constant depends on the program's logic or some computation at runtime and cannot be determined during the compilation phase.
+final double num=Math.random();
+
+6.
 
