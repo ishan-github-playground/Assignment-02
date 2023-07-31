@@ -10,3 +10,20 @@ A strongly typed language is a programming language that enforces strict type ch
 Loosely Typed Language
 A loosely typed language (also known as weakly typed language) is a programming language that allows for implicit type conversions and flexible data type usage, often without explicit type declarations. In contrast to a strongly typed language, a loosely typed language is more permissive when it comes to mixing different data types in operations and assignments
 java is statically typed and strongly typed language.
+
+2.Case Sensitive
+Case sensitivity in a programming language refers to the distinction between uppercase and lowercase letters when using identifiers such as variable names, function names, and keywords. In a case-sensitive language, "identifier" and "Identifier" would be treated as two different identifiers
+ex:C, C++, Java, Swift, JavaScript, Python
+Case Insensive
+In a case-insensitive programming language, uppercase and lowercase letters are considered equivalent when using identifiers such as variable names, function names, and keywords. This means that "identifier" and "Identifier" are treated as the same identifier in a case-insensitive language.
+ex:SQL, HTML, CSS, and XML
+3.Identity Conversion
+
+In Java, an identity conversion is a type conversion operation that involves converting a value of a specific data type to the same data type without any change in the actual value. In other words, an identity conversion does not alter the value of the variable being converted; it simply ensures that the variable remains of the same data type
+ex:
+int x = 10;
+long y = x;
+
+String str = "Hello";
+String sameStr = str;
+
