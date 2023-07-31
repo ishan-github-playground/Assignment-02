@@ -1,0 +1,12 @@
+1.Statically Typed Language
+A statically typed language is a programming language in which variable types are explicitly declared at compile-time and are checked for type correctness before the program is executed. This means that the data types of variables (such as integers, floats, strings, etc.) must be defined when the variables are declared, and the compiler enforces that only compatible types can be assigned to those variables.
+
+Dynamically Typed Language
+A dynamically typed language is a programming language in which variable types are determined at runtime rather than being explicitly declared at compile-time. In dynamically typed languages, you don't need to specify the data type of a variable when it is declared. Instead, the type of the variable is determined based on the value it holds when the code is executed.
+
+Strongly Typed Language
+A strongly typed language is a programming language that enforces strict type checking at compile-time or runtime, ensuring that variables and expressions are used in a consistent and well-defined manner. In a strongly typed language, data types must be explicitly declared and adhered to throughout the program's execution.
+
+Loosely Typed Language
+A loosely typed language (also known as weakly typed language) is a programming language that allows for implicit type conversions and flexible data type usage, often without explicit type declarations. In contrast to a strongly typed language, a loosely typed language is more permissive when it comes to mixing different data types in operations and assignments
+java is statically typed and strongly typed language.
