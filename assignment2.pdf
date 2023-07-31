@@ -27,3 +27,5 @@ long y = x;
 String str = "Hello";
 String sameStr = str;
 
+4.In Java, primitive widening conversion (also known as implicit widening conversion) is a type conversion that automatically promotes a value of a smaller data type to a larger data type without any loss of data. This conversion is performed by the Java compiler and is safe because the larger data type can hold all possible values of the smaller data type.
+
