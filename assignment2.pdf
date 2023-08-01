@@ -55,5 +55,11 @@ Data Loss Awareness: Implicit narrowing conversions may lead to data loss if the
 
 Safety and Readability: Allowing a wider range of implicit narrowing conversions could lead to confusion and errors in code. By restricting the set of types involved in implicit narrowing, Java promotes safer and more readable code.
 
-10
+10.Widening and Narrowing Primitive Conversion" in Java refers to the process of converting a value from one primitive data type to another, either by widening the range of representable values or by narrowing it. These conversions are essential to ensure compatibility between different data types when performing operations and assignments.
+
+short to char Conversion:
+The conversion from short to char is neither classified as widening nor narrowing primitive conversion in the Java Language Specification (JLS). Instead, it is treated as a special case known as "identity conversion."
+
+An identity conversion is a kind of widening conversion that preserves the value and representation of the original data type. In Java, the short data type is a 16-bit signed integer, and the char data type is a 16-bit unsigned integer. Both data types occupy the same number of bits, and their representation in memory is compatible.
+
 
