@@ -43,3 +43,7 @@ Explicit narrowing conversions, also known as casting, occur when a value of a l
 
 When assigning a long value to a float, the Java compiler performs the conversion automatically, and no explicit casting is required. However, it is important to be aware that the float type can only precisely represent a subset of long values, and any long value with more significant bits than the float type can handle may lose precision.
 
+8.The default data types int for integer literals and double for floating-point literals in Java were chosen based on a combination of performance, backward compatibility, and common usage in practical programming scenarios. These default choices allow for efficient computations, preserve backward compatibility, and make code more convenient to write and read in most cases.
+
+9.
+
