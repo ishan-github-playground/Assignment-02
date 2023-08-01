@@ -62,4 +62,3 @@ The conversion from short to char is neither classified as widening nor narrowin
 
 An identity conversion is a kind of widening conversion that preserves the value and representation of the original data type. In Java, the short data type is a 16-bit signed integer, and the char data type is a 16-bit unsigned integer. Both data types occupy the same number of bits, and their representation in memory is compatible.
 
-
